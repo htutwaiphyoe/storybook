@@ -1,3 +1,16 @@
-## Omnifood
+# Omnifood - Landing Page for Ominifood Shop
 
-This is a project from JONAS Course
+Credit to **Jonas Schmedtmann**
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- JQuery
+
+## Features
+
+- Sticky Navigation
+- Scroll Reveal
+- Responsive Navigation
