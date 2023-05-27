@@ -31,3 +31,17 @@ Next.js auto lazy load the pages
 error.tsx for error page
 
 Next.js uses google font by default
+
+SSR => server side rendering
+CSR => client side rendering
+
+by default => all are SSR
+
+use 'use client' for CSR
+
+CSR => empty html + bundled JS files => render UI => slow initial loading => bad SEO
+SSR => html page => render that html => fast initial loading
+
+SSR components cannot interact with user actions, need to change to CSR for interactivity
+
+NextJS => Server + Client components
