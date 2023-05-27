@@ -17,3 +17,17 @@ app => dashboard => settings
 (group) => route group => does not include in route url
 
 route => folder + page.tsx
+
+default layout => hoc of all pages
+
+can create different layout for different pages
+
+navbar and footer components
+
+loading.tsx for loading for page transition
+
+Next.js auto lazy load the pages
+
+error.tsx for error page
+
+Next.js uses google font by default
