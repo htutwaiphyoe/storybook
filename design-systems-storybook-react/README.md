@@ -23,3 +23,7 @@ DS => UI kit, the foundational elements like color and typography, grid, iconogr
 Why => accessibility, consistency, brand identity, single source of truth, responsiveness, documentation, no learning curve, flexibility, speed
 
 Google product uses material design system
+
+## 03. Drawbacks of Design Systems
+
+Time, Evolution, Maintenance, Investment
