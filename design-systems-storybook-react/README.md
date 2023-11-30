@@ -1,0 +1,17 @@
+# Design Systems with Storybook and React
+
+## 01. Introduction
+
+[Course website](https://fem-design-systems.netlify.app/)
+
+[Github Repository](https://github.com/emmabostian/fem-design-systems)
+
+The internet was not originally intended to host large scale social and enterprise applications.
+
+to share data across the world.
+
+pagination, bookmarking, web pages, these all have references to printed books.
+
+Components => to maintain consistent user interfaces
+
+A design system is really going to allow to create modular experience.
