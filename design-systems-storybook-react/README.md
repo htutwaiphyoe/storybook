@@ -27,3 +27,11 @@ Google product uses material design system
 ## 03. Drawbacks of Design Systems
 
 Time, Evolution, Maintenance, Investment
+
+## 04. Team Structure
+
+Centralized Model => one core full time team for building DS => used by product team
+
+Distributed Model => Product teams contribute and use DS
+
+Hybrid Model => Centralized Model + Distributed Model
