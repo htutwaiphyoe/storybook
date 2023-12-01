@@ -35,3 +35,7 @@ Centralized Model => one core full time team for building DS => used by product 
 Distributed Model => Product teams contribute and use DS
 
 Hybrid Model => Centralized Model + Distributed Model
+
+## 05. Who are Design Systems For?
+
+[who-are-design-systems-for](https://css-tricks.com/who-are-design-systems-for/)
