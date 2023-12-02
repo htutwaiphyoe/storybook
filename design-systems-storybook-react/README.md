@@ -39,3 +39,7 @@ Hybrid Model => Centralized Model + Distributed Model
 ## 05. Who are Design Systems For?
 
 [who-are-design-systems-for](https://css-tricks.com/who-are-design-systems-for/)
+
+## 06. A Practical Example
+
+[https://medium.com/eightshapes-llc/and-you-thought-buttons-were-easy-26eb5b5c1871](https://medium.com/eightshapes-llc/and-you-thought-buttons-were-easy-26eb5b5c1871)
