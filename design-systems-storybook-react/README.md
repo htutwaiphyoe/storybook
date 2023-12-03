@@ -43,3 +43,5 @@ Hybrid Model => Centralized Model + Distributed Model
 ## 06. A Practical Example
 
 [https://medium.com/eightshapes-llc/and-you-thought-buttons-were-easy-26eb5b5c1871](https://medium.com/eightshapes-llc/and-you-thought-buttons-were-easy-26eb5b5c1871)
+
+## 07. The Three Pillars of Design Systems
