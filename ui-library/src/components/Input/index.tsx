@@ -5,13 +5,13 @@ import { cn } from "@/utils";
 const cvaClasses = cva([
   "w-full",
   "border",
-  "border-gray-200",
+  "border-gray-400",
   "p-2",
   "rounded-lg",
   "transition-all",
   "duration-100",
   "outline-none",
-  "focus:border-primary-500",
+  "focus:border-primary-600",
   "placeholder:text-gray-400",
   "placeholder:text-sm",
 ]);
