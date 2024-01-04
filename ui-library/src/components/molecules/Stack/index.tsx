@@ -1,7 +1,7 @@
-import Box, { BoxProps } from "@/components/Box";
+import Box, { BoxProps } from "@/components/atoms/Box";
 import { cn } from "@/utils";
 
-type StackProps = BoxProps;
+export type StackProps = BoxProps;
 
 const Stack = ({ className, ...props }: StackProps) => {
   return (

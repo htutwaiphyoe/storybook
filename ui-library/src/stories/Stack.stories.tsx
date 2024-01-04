@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Input from "@/components/Input";
-import Stack from "@/components/Stack";
-import Box from "@/components/Box";
+import Input from "@/components/atoms/Input";
+import Stack from "@/components/molecules/Stack";
+import Box from "@/components/atoms/Box";
 
 const meta: Meta<typeof Input> = {
-  title: "Layout/Stack",
+  title: "Molecules/Stack",
   component: Input,
   parameters: {
     layout: "centered",

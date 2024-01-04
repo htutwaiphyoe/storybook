@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Button from "@/components/atoms/Button";
+import Box from "@/components/atoms/Box";
 
-const meta: Meta<typeof Button> = {
-  title: "Atoms/Button",
-  component: Button,
+const meta: Meta<typeof Box> = {
+  title: "Atoms/Box",
+  component: Box,
   parameters: {
     layout: "centered",
   },
@@ -16,6 +16,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    children: "CLICK ME",
+    className: "w-20 h-20 bg-red-500",
   },
 };

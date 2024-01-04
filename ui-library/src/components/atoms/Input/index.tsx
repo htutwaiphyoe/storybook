@@ -1,5 +1,5 @@
 import { VariantProps, cva } from "class-variance-authority";
-import { ComponentProps, forwardRef } from "react";
+import { ComponentPropsWithRef, forwardRef } from "react";
 import { cn } from "@/utils";
 
 const cvaClasses = cva([
@@ -16,7 +16,8 @@ const cvaClasses = cva([
   "placeholder:text-sm",
 ]);
 
-type InputProps = VariantProps<typeof cvaClasses> & ComponentProps<"input">;
+export type InputProps = VariantProps<typeof cvaClasses> &
+  ComponentPropsWithRef<"input">;
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
   ({ className, ...props }, ref) => {

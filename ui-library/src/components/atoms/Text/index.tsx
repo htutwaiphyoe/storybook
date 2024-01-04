@@ -9,6 +9,7 @@ const cvaClasses = cva("w-full", {
       low: "text-gray-600 font-light",
     },
     size: {
+      xs: "text-xs",
       sm: "text-sm",
       base: "text-base",
       lg: "text-lg",
