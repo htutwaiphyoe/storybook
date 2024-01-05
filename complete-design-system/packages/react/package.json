@@ -1,0 +1,7 @@
+{
+  "name": "@complete-design-system/react",
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "@complete-design-system/foundation": "workspace:^"
+  }
+}

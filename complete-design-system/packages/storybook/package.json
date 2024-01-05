@@ -1,0 +1,9 @@
+{
+  "name": "@complete-design-system/storybook",
+  "packageManager": "yarn@4.0.2",
+  "private": true,
+  "dependencies": {
+    "@complete-design-system/foundation": "workspace:^",
+    "@complete-design-system/react": "workspace:^"
+  }
+}
