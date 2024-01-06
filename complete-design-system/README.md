@@ -45,3 +45,8 @@ local package => @name/package
 package list => `yarn workspaces list`
 
 package dependency with other package => yarn workspace @complete-design-system/storybook add @complete-design-system/react @complete-design-system/foundation
+
+Typescript Configuration
+
+root => yarn add -D typescript
+package => yarn workspace @complete-design-system/foundation add -D typescript

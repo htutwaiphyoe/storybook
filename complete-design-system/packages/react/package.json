@@ -3,5 +3,11 @@
   "packageManager": "yarn@4.0.2",
   "dependencies": {
     "@complete-design-system/foundation": "workspace:^"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }
