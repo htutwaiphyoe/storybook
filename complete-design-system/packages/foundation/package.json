@@ -2,6 +2,7 @@
   "name": "@complete-design-system/foundation",
   "packageManager": "yarn@4.0.2",
   "devDependencies": {
+    "style-dictionary": "^3.9.2",
     "typescript": "^5.3.3"
   }
 }
