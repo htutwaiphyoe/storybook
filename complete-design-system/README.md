@@ -50,3 +50,5 @@ Typescript Configuration
 
 root => yarn add -D typescript
 package => yarn workspace @complete-design-system/foundation add -D typescript
+
+ESLint & Prettier
