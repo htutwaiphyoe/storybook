@@ -1,64 +1,56 @@
-<div>
-  <h1 align="center"><a href="https://www.newline.co/courses/build-a-complete-company-design-system">Building a company design system 🎨</a></h1>
-  
-  <div align="center">
-    <strong>
-      Learn the foundational concepts necessary for building
-      a complete engineering design system from scratch
-    </strong>
-  </div>
+# Complete Design System
 
-  <div>
+- Productivity
+- Consistency
+- Velocity
 
-  <div>
+- Yarn Workspace
+- React
+- TypeScript
+- Tailwind
+- Jest AXE
+- Styled Dictionary
+- Storybook
+- React Testing Library
+- Changesets
 
-</div>
+- centralized places for components
+- single source of truth
 
-<hr />
+4 fundamental concepts
 
-## Quick start
+- design tokens => piece of UI information (color, spacing)
+- source of truth => figma
+- pace layering (Mental) => design token, simple components, complex components
+- atomic design (Mental) => ions => atoms => molecules => organisms => templates => pages
 
-Assuming that you will run in a local development environment, follow the instructions below:
+Monorepo Architecture
 
-#### 1. Install `yarn`
+Figma => Foundation => Component Library => Storybook
 
-This repository uses `yarn` v3 (berry).
+Yarn workspace
 
-#### 2. Install the packages
+- delegate and deduplicate dependencies
+- run package scripts directly from root repository
+- handle sibling package dependency
 
-Run `yarn` to install the node packages
+yarn version 3 => `yarn set version berry`
 
-### 3. Build the packages
+yarn workspace => `yarn init -w`
 
-Some packages need to be built before consuming them, like the `foundation`, which will distribute the design tokens to the rest of the packages. To build the packages execute:
+yarn packages => `yarn init`, -p => private
 
-```bash
-yarn workspace @newline-ds/foundation build # Build the foundation package
-yarn workspace @newline-ds/react build # Build the react package
-```
+local package => @name/package
 
-## System Requirements
+package list => `yarn workspaces list`
 
-- git
-- NodeJS `>=10.13.0` to work with Storybook
-- yarn v3
+package dependency with other package => yarn workspace @complete-design-system/storybook add @complete-design-system/react @complete-design-system/foundation
 
-## Run Storybook
+Typescript Configuration
 
-You can run Storybook and instantly start experimenting with the components' code running the command:
+root => yarn add -D typescript
+package => yarn workspace @complete-design-system/foundation add -D typescript
 
-```bash
-yarn workspace @newline-ds/storybook storybook
-```
+ESLint & Prettier
 
-A compiled storybook can be found also [here](https://design-system-newline.surge.sh/).
-
-## Prerequisites
-
-- Knowledge of JavaScript
-- Basic knowledge of TypeScript would be helpful
-- This repository uses React, but you can swap it with your own framework of choice
-
-## Code Feedback
-
-If you spotted a bug 🐛 or an incompatibility with newer versions please feel free to open an issue or a pull request.
+yarn workspace @complete-design-system/foundation add -D @storybook/addon-a11y
