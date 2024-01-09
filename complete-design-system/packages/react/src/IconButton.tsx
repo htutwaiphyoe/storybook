@@ -1,5 +1,3 @@
-const IconButton = () => {
+export const IconButton = () => {
   return <button>IconButton</button>;
 };
-
-export default IconButton;
