@@ -63,3 +63,9 @@ theme => storybook theme and ui design (Company theme), not component
 favicon => manager-header.html
 
 [project](https://github.com/yannbf/storybook-for-react-apps)
+
+better to add all variants in story
+
+decorators start with `with`
+
+decorator can access story context
